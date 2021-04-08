@@ -11,9 +11,9 @@
 ## 어플리케이션 플랫폼
 
 ### 어플리케이션 플랫폼 설치 가이드
-- [BOSH 설치(AWS, OpenStack)](./install-guide/bosh/PAAS-TA_BOSH2_INSTALL_GUIDE_V5.0.md)
-- [어플리케이션 플랫폼 설치(AWS, OpenStack)](./install-guide/paasta/PAAS-TA_CORE_INSTALL_GUIDE_V5.0.md)
-- [어플리케이션 플랫폼 경량화 설치(AWS)](./install-guide/paasta/PAAS-TA_MIN_INSTALL_GUIDE.md)
+- [BOSH (AWS, OpenStack)](./install-guide/bosh/PAAS-TA_BOSH2_INSTALL_GUIDE_V5.0.md)
+- [어플리케이션 플랫폼 (AWS, OpenStack)](./install-guide/paasta/PAAS-TA_CORE_INSTALL_GUIDE_V5.0.md)
+- [어플리케이션 플랫폼 경량화 버전 (AWS)](./install-guide/paasta/PAAS-TA_MIN_INSTALL_GUIDE.md)
 
 
 ### 포털 설치 가이드
@@ -21,15 +21,15 @@
 > VM Type 배포/ App Type 배포 중 배포 방식을 선택하여 설치한다.
 
 - BOSH를 이용한 VM Type 배포
-  - [PaaS-TA 포털 UI](./install-guide/portal/PAAS-TA_PORTAL_UI_SERVICE_INSTALL_GUIDE_V1.0.md)
-  - [PaaS-TA 포털 API](./install-guide/portal/PAAS-TA_PORTAL_API_SERVICE_INSTALL_GUIDE_V1.0.md)
+  - [어플리케이션 플랫폼 포털 UI](./install-guide/portal/PAAS-TA_PORTAL_UI_SERVICE_INSTALL_GUIDE_V1.0.md)
+  - [어플리케이션 플랫폼 포털 API](./install-guide/portal/PAAS-TA_PORTAL_API_SERVICE_INSTALL_GUIDE_V1.0.md)
 - PaaS-TA 컨테이너에 App Type 배포
-  - [PaaS-TA 포털](./install-guide/portal/PAAS-TA_PORTAL_SERVICE_APP_TYPE_INSTALL_GUIDE_V1.0.md)
+  - [어플리케이션 플랫폼 포털](./install-guide/portal/PAAS-TA_PORTAL_SERVICE_APP_TYPE_INSTALL_GUIDE_V1.0.md)
 
 
 ### 서비스 설치 가이드
 
-> 아래 서비스 설치 전에 BOSH, PaaS-TA, PaaS-TA 포털이 설치되어 있어야 한다.
+> 아래 서비스 설치 전에 BOSH, 어플리케이션 플랫폼, 어플리케이션 플랫폼 포털이 설치되어 있어야 한다.
 
 - DBMS 설치
   - [Cubrid](./service-guide/dbms/PAAS-TA_CUBRID_SERVICE_INSTALL_GUIDE_V1.0.md)
@@ -60,13 +60,13 @@
 - [BOSH CLI V2(Command Line Interface) 사용](../../../Guide-4.0-ROTELLE/blob/master/Use-Guide/Bosh/PaaS-TA_BOSH_CLI_V2_사용자_가이드v1.0.md)
 - [CF CLI(Command Line Interface) 사용](../../../Guide-1.0-Spaghetti-/blob/master/Use-Guide/OpenPaas%20CLi%20가이드.md)
 - [Eclipse plugin 개발도구 사용](../../../Guide-1.0-Spaghetti-/blob/master/Use-Guide/Open%20PaaS%20개발환경%20사용%20가이드.md)
-- [PaaS-TA 사용자 포털 가이드](./use-guide/portal/PAAS-TA_USER_PORTAL_USE_GUIDE_V1.1.md)
-- [PaaS-TA 운영자 포털 가이드](./use-guide/portal/PAAS-TA_ADMIN_PORTAL_USE_GUIDE_V1.1.md)
-- [PaaS-TA 배포 파이프라인 사용자 가이드](./use-guide/tools/PAAS-TA_DELIVERY_PIPELINE_SERVICE_USE_GUIDE_V1.0.md)
-- [PaaS-TA 형상관리 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_SOURCE_CONTROL_SERVICE_USE_GUIDE_V1.0.md)
-- [PaaS-TA Container 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_CONTAINER_SERVICE_USE_GUIDE_V2.0.md)
-- [PaaS-TA Logging 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_LOGGING_SERVICE_USE_GUIDE_V1.0.md)
-- [PaaS-TA Jenkins 서비스](./use-guide/tools/PAAS-TA_JENKINS_SERVICE_USER_GUIDE.md)
+- [어플리케이션 플랫폼 사용자 포털 가이드](./use-guide/portal/PAAS-TA_USER_PORTAL_USE_GUIDE_V1.1.md)
+- [어플리케이션 플랫폼 운영자 포털 가이드](./use-guide/portal/PAAS-TA_ADMIN_PORTAL_USE_GUIDE_V1.1.md)
+- [어플리케이션 플랫폼 배포 파이프라인 사용자 가이드](./use-guide/tools/PAAS-TA_DELIVERY_PIPELINE_SERVICE_USE_GUIDE_V1.0.md)
+- [어플리케이션 플랫폼 형상관리 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_SOURCE_CONTROL_SERVICE_USE_GUIDE_V1.0.md)
+- [어플리케이션 플랫폼 Container 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_CONTAINER_SERVICE_USE_GUIDE_V2.0.md)
+- [어플리케이션 플랫폼 Logging 서비스 사용자 가이드](./use-guide/tools/PAAS-TA_LOGGING_SERVICE_USE_GUIDE_V1.0.md)
+- [어플리케이션 플랫폼 Jenkins 서비스](./use-guide/tools/PAAS-TA_JENKINS_SERVICE_USER_GUIDE.md)
 
 
 ### 개발 가이드
@@ -91,9 +91,15 @@
 
 ## 컨테이너 플랫폼	
 ### 컨테이너 플랫폼 설치 가이드
-- 단독
-- Edge
-- CaaS 서비스
+- 단독 배포
+  - [단독 배포](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/standalone/paas-ta-container-platform-standalone-deployment-guide-v1.0.md)
+  - [단독 배포용 Release 및 포털](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/bosh/paas-ta-container-platform-bosh-deployment-spray-guide-v1.0.md)
+- Edge 배포
+  - [Edge 배포](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/edge/paas-ta-container-platform-edge-deployment-guide-v1.0.md)
+  - [Edge 배포용 Release 및 포털](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/bosh/paas-ta-container-platform-bosh-deployment-edge-guide-v1.0.md)
+- CaaS 서비스 배포
+  - [단독 배포](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/standalone/paas-ta-container-platform-standalone-deployment-guide-v1.0.md)
+  - [CaaS 서비스용 Release 및 포털](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/bosh/paas-ta-container-platform-bosh-deployment-caas-guide-v1.0.md)
 
 
 ### 포털 설치 및 활용 가이드
@@ -102,15 +108,13 @@
 - 운영자 설치
 - 운영자 활용
 
-
 ### 서비스 가이드
 
 
+## 모니터링 설치 가이드
+- [모니터링](./service-guide/monitoring/PAAS-TA_MONITORING_INSTALL_GUIDE_V5.0.md)
 
-### 모니터링 설치 가이드 ?
-- ?
-
-
+---
 -----
 -----
 -----
