@@ -23,7 +23,8 @@
 - BOSH를 이용한 VM Type 배포
   - [어플리케이션 플랫폼 포털 UI](./install-guide/portal/PAAS-TA_PORTAL_UI_SERVICE_INSTALL_GUIDE_V1.0.md)
   - [어플리케이션 플랫폼 포털 API](./install-guide/portal/PAAS-TA_PORTAL_API_SERVICE_INSTALL_GUIDE_V1.0.md)
-- PaaS-TA 컨테이너에 App Type 배포
+
+- 어플리케이션 플랫폼 컨테이너에 App Type 배포
   - [어플리케이션 플랫폼 포털](./install-guide/portal/PAAS-TA_PORTAL_SERVICE_APP_TYPE_INSTALL_GUIDE_V1.0.md)
 
 
@@ -108,8 +109,7 @@
   - [사용자 활용](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/use-guide/portal/paas-ta-container-platform-user-guide-v1.0.md)
 
 
-## 모니터링 설치 가이드
-- [모니터링](./service-guide/monitoring/PAAS-TA_MONITORING_INSTALL_GUIDE_V5.0.md)
+## [모니터링 설치 가이드](./service-guide/monitoring/PAAS-TA_MONITORING_INSTALL_GUIDE_V5.0.md)
 
 ---
 -----
