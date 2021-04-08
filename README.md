@@ -11,7 +11,8 @@
 - BOSH
 - 파스-타 AP ? CF ?
 ### 포털 설치 가이드
-**VM Type 배포/ App Type 배포 중 배포 방식을 선택하여 설치한다.**
+> VM Type 배포/ App Type 배포 중 배포 방식을 선택하여 설치한다.
+
 - BOSH를 이용한 VM Type 배포
   - [PaaS-TA 포털 UI](./install-guide/portal/PAAS-TA_PORTAL_UI_SERVICE_INSTALL_GUIDE_V1.0.md)
   - [PaaS-TA 포털 API](./install-guide/portal/PAAS-TA_PORTAL_API_SERVICE_INSTALL_GUIDE_V1.0.md)
@@ -20,7 +21,8 @@
 
 
 ### 서비스 설치 가이드
-**아래 서비스 설치 전에 BOSH, PaaS-TA, PaaS-TA 포털이 설치되어 있어야 한다.**
+
+> 아래 서비스 설치 전에 BOSH, PaaS-TA, PaaS-TA 포털이 설치되어 있어야 한다.
 
 - DBMS 설치
   - [Cubrid](./service-guide/dbms/PAAS-TA_CUBRID_SERVICE_INSTALL_GUIDE_V1.0.md)
@@ -98,6 +100,10 @@
 ### 모니터링 설치 가이드 ?
 - ?
 
+
+-----
+-----
+-----
 
 
 ## 플랫폼 설치 가이드
