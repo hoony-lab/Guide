@@ -102,13 +102,10 @@
   - [CaaS 서비스용 Release 및 포털](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/bosh/paas-ta-container-platform-bosh-deployment-caas-guide-v1.0.md)
 
 
-### 포털 설치 및 활용 가이드
-- 사용자 설치
-- 사용자 활용
-- 운영자 설치
-- 운영자 활용
-
-### 서비스 가이드
+### 활용 가이드
+- 포털
+  - [운영자 활용](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/use-guide/portal/paas-ta-container-platform-admin-guide-v1.0.md)
+  - [사용자 활용](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/use-guide/portal/paas-ta-container-platform-user-guide-v1.0.md)
 
 
 ## 모니터링 설치 가이드
