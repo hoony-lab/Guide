@@ -6,10 +6,14 @@
 
 # PaaS-TA 5.5.1 가이드 문서
 
-## 어플리케이션 플랫폼	
+> 모니터링까지 포함한 플랫폼 설치를 위해서는 모니터링옵션이 포함된 BOSH 설치를 해야합니다.
+
+## 어플리케이션 플랫폼
+
 ### 어플리케이션 플랫폼 설치 가이드
 - [BOSH 설치(AWS, OpenStack)](./install-guide/bosh/PAAS-TA_BOSH2_INSTALL_GUIDE_V5.0.md)
-- 파스-타 AP ? CF ?
+- [어플리케이션 플랫폼 설치(AWS, OpenStack)](./install-guide/paasta/PAAS-TA_CORE_INSTALL_GUIDE_V5.0.md)
+- [어플리케이션 플랫폼 경량화 설치(AWS)](./install-guide/paasta/PAAS-TA_MIN_INSTALL_GUIDE.md)
 
 
 ### 포털 설치 가이드
@@ -51,12 +55,7 @@
 - 미터링
   - (Deprecated) ~~[CF-Abacus](./install-guide/metering/PAAS-TA_METERING_INSTALL_GUIDE.md)~~
 
-### 모니터링 설치 가이드
-- iaas
-- saas
-- cass
-- 어쩌구
-### 마켓플레이스 (deprecated)
+
 ### 활용 가이드
 - [BOSH CLI V2(Command Line Interface) 사용](../../../Guide-4.0-ROTELLE/blob/master/Use-Guide/Bosh/PaaS-TA_BOSH_CLI_V2_사용자_가이드v1.0.md)
 - [CF CLI(Command Line Interface) 사용](../../../Guide-1.0-Spaghetti-/blob/master/Use-Guide/OpenPaas%20CLi%20가이드.md)
@@ -94,7 +93,7 @@
 ### 컨테이너 플랫폼 설치 가이드
 - 단독
 - Edge
-- CaaS
+- CaaS 서비스
 
 
 ### 포털 설치 및 활용 가이드
@@ -103,8 +102,10 @@
 - 운영자 설치
 - 운영자 활용
 
+
 ### 서비스 가이드
-- 
+
+
 
 ### 모니터링 설치 가이드 ?
 - ?
