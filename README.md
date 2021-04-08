@@ -104,6 +104,8 @@
   - [CaaS 서비스용 Release 및 포털](https://github.com/PaaS-TA/paas-ta-container-platform/blob/master/install-guide/bosh/paas-ta-container-platform-bosh-deployment-caas-guide-v1.0.md)
 
 
+## [모니터링 설치 가이드](./service-guide/monitoring/PAAS-TA_MONITORING_INSTALL_GUIDE_V5.0.md)
+
 
 ---
 -----
