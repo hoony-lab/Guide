@@ -8,9 +8,12 @@
 
 ## 어플리케이션 플랫폼	
 ### 어플리케이션 플랫폼 설치 가이드
-- BOSH
+- [BOSH 설치(AWS, OpenStack)](./install-guide/bosh/PAAS-TA_BOSH2_INSTALL_GUIDE_V5.0.md)
 - 파스-타 AP ? CF ?
+
+
 ### 포털 설치 가이드
+
 > VM Type 배포/ App Type 배포 중 배포 방식을 선택하여 설치한다.
 
 - BOSH를 이용한 VM Type 배포
@@ -115,7 +118,7 @@
 ## 플랫폼 설치 가이드
 - 운영 환경 설치
   - PaaS-TA 플랫폼 자동화 설치
-    - (Deprecated) ~~[플랫폼 설치 자동화  설치](./use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_INSTALL_GUIDE_v1.0.md)~~
+    - (Deprecated) ~~[플랫폼 설치 자동화 설치](./use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_INSTALL_GUIDE_v1.0.md)~~
     - (Deprecated) ~~[플랫폼 설치 자동화 사용 메뉴얼](./use-guide/platform/PAAS-TA_PLATFORM_INSTALL_AUTOMATION_USE_MANUAL_v1.0.md)~~
   - PaaS-TA 플랫폼 수동 설치
     - [BOSH 설치(AWS, OpenStack)](./install-guide/bosh/PAAS-TA_BOSH2_INSTALL_GUIDE_V5.0.md)
